@@ -1,0 +1,20 @@
+:root {
+  --cor-rosa: #DCC5BF ;
+  --cor-cinza: #808181;
+  --cor-branco: #ffffff;
+}
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cor-branco);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Montserrat';
+}

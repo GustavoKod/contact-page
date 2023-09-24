@@ -1,0 +1,43 @@
+.content {
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: var(--cor-rosa);
+}
+
+.image {
+    width: 94px;
+    height: 94px;
+    background-image: url('../../assets/IMGprincipal.jpg');
+    background-size: cover;
+    border-radius: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h1, p, div {
+    color: var(--cor-cinza);
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        margin: 6px; 
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem; 
+    }
+}
