@@ -1,7 +1,4 @@
 .redeS {
-  text-decoration: none;
-  color: var(--cor-cinza);
-  background-color: var(--cor-rosa);
   display: flex;
   align-items: center;
   justify-content: center;
